@@ -48,7 +48,7 @@ if (isset($_POST['register'])) {
   <div class="card">
     <h2>Login</h2>
     <form method="post">
-      <input type="text" name="nim" placeholder="NIM" required>
+      <input type="text" name="nim" placeholder="NIM"required>
       <input type="password" name="password" placeholder="Password" required>
       <button class="btn primary" type="submit" name="login">Login</button>
     </form>
